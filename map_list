@@ -1,0 +1,19 @@
+Id GoodKey = '00X4L000000i8wdUAG';
+Id BadKey = '00X4L000000i8wdUAB';
+
+Map<Id, List<Id>> mapIds = new Map<Id, List<Id>>();
+
+List<id> badMail = new List<Id>();
+List<id> goodMail = new List<Id>();
+
+for(Integer i=2;i<20;i++){
+    if(math.mod(i,2)>0){
+        mapIds.put(GoodKey, ((List<Id>)goodMail.add('00X4L000000i8waUAG')));
+    	//goodMail.add('00X4L000000i8waUAG');
+    }else{
+		//badMail.add('00X4L000000i8waUAB');
+    }
+}
+mapIds.put(GoodKey, goodMail);
+mapIds.put(BadKey, badMail);
+System.debug('map print- '+mapIds);
